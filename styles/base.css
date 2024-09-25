@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
 header {
     background-color: #247;
     padding: 2rem;
@@ -15,7 +23,7 @@ header {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #4682b4;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -28,29 +36,28 @@ nav a, .callout2 a {
     padding: .5rem;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     margin: 10px;
     padding: 5px;
 }
 
 a:link, a:visited {
-    color: #247;
+    color: #ff6;
   }
 
  a:hover {
-    color: #366;
-    background-color: #333;
+    color: #fff;
+    background-color: #246;
   }
 
 h1 { 
-    color: steelblue;
+    color: #fff;
     border-bottom: 1px solid steelblue;
     margin: 0 0 15px 0;
 }
 
 .callout{
     display: grid;
-    grid-template: auto 3fr auto;
 }
 
 
@@ -69,7 +76,7 @@ main {
 .callout2{
     margin: 30px;
     padding: 25px;
-    background-color: steelblue;
+    background-color: #4682b4;
     color: #fff;
     grid-column: 3/4;
 }
@@ -102,9 +109,14 @@ footer {
     position: relative;
     text-align: center;
     text-decoration: solid;
-    color: steelblue;
+    background-color: #247;
+    color: #fff;
     max-width: 900px;
-    font-weight: 900;
+    font-weight: 400;
+}
+
+ .lastModified{
+    color: yellow;
 }
 
 header, main, footer {
