@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: 100%;
     font-weight: 300;
     font-style: normal;
     font-variation-settings: "wdth" 100;
